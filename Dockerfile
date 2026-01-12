@@ -1,5 +1,5 @@
 # skopeo inspect --override-os linux docker://busybox:1.37.0-musl  | jq -r .Digest
-FROM docker.io/library/busybox:1.37.0-musl@sha256:b259afe60d4b88dbdb31908ca9524ef5308afd01aea17f4ce44ddb3c6a882929 AS busybox
+FROM docker.io/library/busybox:1.37.0-musl@sha256:03db190ed4c1ceb1c55d179a0940e2d71d42130636a780272629735893292223 AS busybox
 
 FROM scratch
 
